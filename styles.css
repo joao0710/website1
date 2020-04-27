@@ -1,0 +1,78 @@
+/* GERAL
+************************/
+
+html, body{
+	height: 100%;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #161616;
+	color: white;
+}
+
+
+.section-background{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	background-image: url('./imagens/fundo1.jpeg');
+}
+
+.section-container{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.65)
+	
+}
+
+/* HEADER
+***********************/
+.main-header{
+	position: relative;
+}
+
+.header-video{
+	width: 100%;
+}
+
+.navigation{
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #3b3b3b;
+	z-index: 100;
+}
+
+.navigation-list{
+	padding: 0;
+}
+
+.navigation-list-item{
+	display: inline;
+	padding: 15px;
+}
+
+.nav-link{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav-link:hover{
+	color: #0079d0;
+}
+
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 80%;
+}
+
