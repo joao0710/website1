@@ -9,7 +9,9 @@ html, body{
 	color: white;
 }
 
-
+div{
+	padding: 10px;
+}
 .section-background{
 	width: 100%;
 	position: relative;
