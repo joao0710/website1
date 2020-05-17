@@ -17,17 +17,7 @@ html, body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 500px;
-	background-image: url('./imagens/fundo1.jpeg');
-}
-
-.section-background2{
-	width: 100%;
-	position: relative;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	min-height: 500px;
-	background-image: url('./imagens/secao2.jpeg');
+	background-image: url('fundo1.jpeg');
 }
 
 .section-container{
@@ -36,7 +26,7 @@ html, body{
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-color: rgba(0,0,0,0.65);
+	background-color: rgba(0,0,0,0.65)
 	
 }
 
@@ -87,17 +77,3 @@ html, body{
 	max-width: 80%;
 }
 
-/* FOOTER
-**************************************/
-
-.main-footer{
-	position: relative;
-	padding: 10px;
-}
-
-.footer-section{
-	width: 30%;
-	min-width: 250px;
-	display: inline-block;
-	vertical-align: top;
-}
